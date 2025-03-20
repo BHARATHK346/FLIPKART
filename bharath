@@ -1,0 +1,10 @@
+CLASS.SWAP{
+PUBLIC static void main(string[]args){
+int x=10 y=20,temp;
+system.out.println("before swap x="+x+"y="+y);
+temp=x;
+x=y;
+y=temp;
+system.out.println("after swap x="+x+"y="+y);
+}
+}
